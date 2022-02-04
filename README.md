@@ -1,13 +1,13 @@
 micro:bit Wireless Intruder Alarm
 --------------------
-In this assignment you will program the micro:bit to create a wireless intruder alarm that will warn you when someone steps on a home-made pressure sensor.
+In this assignment you will work with a partner to program two micro:bits to create a wireless intruder alarm that will warn you when someone steps on a home-made pressure sensor.
 
-You will need a partner. One person will program their micro:bit to act as the sending device that is triggered by the pressure switch. The other person will program the receiver the activates the alarm. The alarm could use the speaker to create a sound, or you could trigger an LED. In both programs you will need to set the channel to a number from 0 to 83.
+Start by choosing a partner. One person will program their micro:bit to act as the sending device that is triggered by the pressure switch. The other person will program the receiver the activates the alarm. The alarm could use the speaker to create a sound, or you could trigger an LED. In both programs you will need to set the group to a number from 0 to 83.
 
 Program requirements
 -----------------
 * Your program must use the micro:bit's radio features
-* You will need two micro:bits to complete this project. Find a partner. Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
+* Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
 
 Suggested steps to completing this assignment
 ----------
