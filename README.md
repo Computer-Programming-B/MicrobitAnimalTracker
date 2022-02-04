@@ -1,15 +1,13 @@
-micro:bit Animal Tracker
+micro:bit Wireless Intruder Alarm
 --------------------
-In this assignment you will program the micro:bit's accelerometer and radio features to make a prototype of a device to help scientists track animals like polar bears to discover how they are being affected by climate change.
+In this assignment you will program the micro:bit to create a wireless intruder alarm that will warn you when someone steps on a home-made pressure sensor.
 
-You will need a partner. One person will program the sending device that would be attached to the animal that was being tracked. The other person will program the receiver collects data about the animals movements. In both programs you will need to set the channel to a number from 0 to 83.
-
-The sending device takes readings from the built-in accelerometer and transmits them by radio. The receiver shows the accelerometer readings on the LED display. Larger numbers mean quicker movements. You can use these numbers to make inferences about an animal's behaviour, for example if it's looking for food, a new habitat or staying in one place to make a home.
+You will need a partner. One person will program their micro:bit to act as the sending device that is triggered by the pressure switch. The other person will program the receiver the activates the alarm. The alarm could use the speaker to create a sound, or you could trigger an LED. In both programs you will need to set the channel to a number from 0 to 83.
 
 Program requirements
 -----------------
-* Your program must use the micro:bit's sensor and radio features
-* Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
+* Your program must use the micro:bit's radio features
+* You will need two micro:bits to complete this project. Find a partner. Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
 
 Suggested steps to completing this assignment
 ----------
@@ -17,7 +15,8 @@ Suggested steps to completing this assignment
 
 Extensions
 ----------
-This program measures movement in the Y-axis. The micro:bit's accelerometer can measure forces in other directions, and also give an overall reading of strength. Experiment using different axis measurements to see which works best. Depending on the axis you measure and how you attach the sensor micro:bit, you may notice readings even when the animal is still. This is because of the Earth's gravity, which the micro:bit can also measure! How would you make sure this doesn't affect your readings? What other sensors on the micro:bit could you use to transmit data about an animal?
+If you have extra time, you can add multiple sensors each sending its own message, e.g. ‘room1’, ‘room2’ and have the alarm show where the intruder is. You could also try different designs for the pressure switch. For example, place a foam pad inside it if is being triggered too easily.
+You could also make a rain alarm using two tin foil pads very close together – if they get wet, they will trigger the alarm. Be sure not to get your micro:bit wet though! Have fun and be creative, your alarm doesn't have to work like any other.
 
 Samples of Student Work
 ----------
