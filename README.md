@@ -11,7 +11,8 @@ Program requirements
 
 Suggested steps to completing this assignment
 ----------
-1. TBD
+1. Build the sensor. Cut out a small piece of cardoard and fold it in half. Glue two squares of tin foil on one side of the fold, and a third on the other so that when the tin foil touches it completes the circuit:   
+![](Sensor.jpg)
 
 Extensions
 ----------
