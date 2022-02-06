@@ -6,7 +6,7 @@ Start by choosing a partner. One person will program their micro:bit to act as t
 
 Program requirements
 -----------------
-* Your program must use the micro:bit's radio features
+* Your programs must use the micro:bit's radio to send and receive messages
 * Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
 
 Build the Pressure Sensor
