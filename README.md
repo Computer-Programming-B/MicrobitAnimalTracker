@@ -11,7 +11,7 @@ Program requirements
 
 Build the Sensor
 ----------
-Cut out a small piece of cardoard and fold it in half. Glue two squares of tin foil on one side of the fold, and a third on the other so that when the cardboard is folded the tin foil completes the circuit:   
+Cut out a small piece of cardoard and fold it in half. Glue two squares of tin foil on one side of the fold, and a third on the other so that when the cardboard is folded the tin foil completes the circuit. Connect pin 0 and ground to the sensor as shown below:   
 ![](Sensor.jpg)
 
 Write the sending code on one micro:bit
