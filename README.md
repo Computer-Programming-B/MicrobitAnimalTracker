@@ -18,7 +18,7 @@ Write the sending code on one micro:bit
 ----------
 1. Add `import radio` to the top of your program
 2. Add `radio.on()` and `radio.config(group = `*some number*`)` before the `while True:`. For the group number, choose a number between 0 and 255
-3. Inside of the `while True:` write an `if` statement using `pin0.read_analog()` to detect when the pressure switch is closed. The reading will be between 0 and 1027. If the switch is closed, send a message using `radio.send("a message")`
+3. Inside of the `while True:` write an `if` statement using `pin0.read_analog()` to detect when the pressure switch is closed. The reading will be between 0 and 1027. If the switch is closed, the reading will be a low number. If the switch is open, the reading will be a high number. If the switch is closed, send a message using `radio.send("a message")`
 
 Write the receiving code on the other micro:bit
 ----------
