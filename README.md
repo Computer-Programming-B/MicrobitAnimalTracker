@@ -2,14 +2,14 @@ micro:bit Wireless Intruder Alarm
 --------------------
 In this assignment you will work with a partner to program two micro:bits to create a wireless intruder alarm that will warn you when someone steps on a home-made pressure sensor.
 
-Start by choosing a partner. One person will program their micro:bit to act as the sending device that is triggered by the pressure switch. The other person will program the receiver that activates the alarm. The alarm could use the speaker to create a sound, trigger an LED, or even activate a servo to "whack" the intruder. In both programs you will need to set the group to the same number from 0 to 255.
+Start by choosing a partner. One person will program their micro:bit to act as the sending device that is triggered by the pressure sensor. The other person will program the receiver that activates the alarm. The alarm could use the speaker to create a sound, trigger an LED, or even activate a servo to "whack" the intruder. In both programs you will need to set the group to the same number from 0 to 255.
 
 Program requirements
 -----------------
 * Your program must use the micro:bit's radio features
 * Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
 
-Build the Sensor
+Build the Pressure Sensor
 ----------
 Cut out a small piece of cardoard and fold it in half. Glue two squares of tin foil on one side of the fold, and a third on the other so that when the cardboard is folded the tin foil completes the circuit. Connect pin 0 and ground to the sensor as shown below:   
 ![](Sensor.jpg)
