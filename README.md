@@ -9,10 +9,22 @@ Program requirements
 * Your program must use the micro:bit's radio features
 * Each person will submit the Python code for their program (either the sender or receiver) and an animated gif showing the two programs running to Google Classroom
 
-Suggested steps to completing this assignment
+Build the Sensor
 ----------
-1. Build the sensor. Cut out a small piece of cardoard and fold it in half. Glue two squares of tin foil on one side of the fold, and a third on the other so that when the cardboard is folded the tin foil completes the circuit:   
+Cut out a small piece of cardoard and fold it in half. Glue two squares of tin foil on one side of the fold, and a third on the other so that when the cardboard is folded the tin foil completes the circuit:   
 ![](Sensor.jpg)
+
+Write the sending code on one micro:bit
+----------
+1. Add `import radio` to the top of your program
+2. Add `radio.on()` and `radio.config(group = 56)` before the `while True:` for the group number, choose a number between 0 and 255
+3. Inside of the `while True:` write an `if` statement using `pin0.read_analog()` to detect when the pressure switch is closed. The reading will be between 0 and 1027. If the switch is closed, send a message using `radio.send("a message")`
+
+Write the receiving code on the other micro:bit
+----------
+1. Add `import radio` to the top of your program
+2. Add `radio.on()` and `radio.config(group = 56)` before the `while True:` for the group number, be sure to use the same group number as the sending code
+3. Inside of the `while True:` write an `if` statement using `radio.receive()`. If the the message is received, trigger the alarm.
 
 Extensions
 ----------
