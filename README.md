@@ -24,7 +24,7 @@ Write the receiving code on the other micro:bit
 ----------
 1. Add `import radio` to the top of your program
 2. Add `radio.on()` and `radio.config(group = `*some number*`)` before the `while True:`. For the group number, be sure to use the same group number as the sending code
-3. Inside of the `while True:` write an `if` statement using `radio.receive()`. If the the message is received, trigger the alarm.
+3. Inside of the `while True:` write an `if` statement using `radio.receive()`. If the the message indicates the pressure switch is closed, trigger the alarm.
 
 Extensions
 ----------
