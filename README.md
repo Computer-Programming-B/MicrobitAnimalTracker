@@ -4,6 +4,8 @@ In this assignment you will work with a partner to program two micro:bits to cre
 
 Each partner will write a program for their micro:bit. One person will program their micro:bit to act as the sending device that is triggered by the pressure sensor. The other person will program the receiver that activates the alarm. The alarm could use the speaker to create a sound, trigger an LED, or even activate a servo to "whack" the intruder. In both programs you will need to set the group to the same number from 0 to 255.
 
+You may find slides 141 - 145 of the [slide presentation](https://docs.google.com/presentation/d/1aiGcnPn8uoCJdX8p7_qoI3Hh3_KOhUtFeB3Byw0tacA/edit?usp=sharing) helpful in completing this assignment.
+
 Program requirements
 -----------------
 * Your programs must use the micro:bit's radio to send and receive messages
