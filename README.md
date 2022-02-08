@@ -35,4 +35,4 @@ You could also make a rain alarm using two tin foil pads very close together –
 
 Samples of Student Work
 ----------
-*none yet!*
+[Patrick](PatrickRadio.gif)   
